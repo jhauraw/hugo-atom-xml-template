@@ -1,0 +1,13 @@
+[default]
+name = "Site Publisher"
+uri = "https://www.publisher.com/"
+email = "contact@publisher.com"
+twitter = "publisher"
+image = "theme/icon.png"
+
+[joesmith]
+name = "Joe Smith"
+uri = "https://www.joesmith.com/"
+email = "joe@joesmith.com"
+twitter = "joesmith"
+image = "img/authors/joesmith.jpg"

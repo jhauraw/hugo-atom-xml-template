@@ -1,0 +1,37 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
+
+# RSS limit, remove for unlimited posts
+rssLimit = 100
+
+[outputs]
+# Output HTML, and ATOM on Home
+home = ["HTML", "ATOM"]
+# Output only HTML everywhere else
+section = ["HTML"]
+taxonomy = ["HTML"]
+taxonomyTerm = ["HTML"]
+
+# Define a new ATOM output format
+[outputFormats]
+[outputFormats.ATOM]
+name = "ATOM"
+baseName = "feed"
+mediaType = "application/atom+xml"
+
+# Define a new ATOM media type
+[mediaTypes]
+[mediaTypes."application/atom+xml"]
+suffixes = ["atom"]
+
+# Define the main Sections
+[params]
+mainSections = ["posts"]
+
+# Example Brand settings
+[params.brand]
+tagline = "Publisher's Tagline"
+icon = "icon.png"
+logo = "logo.png"
